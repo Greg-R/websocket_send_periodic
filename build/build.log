@@ -1,0 +1,834 @@
+Handling lib "ca-bundle"...
+The --lib flag was not given for it, checking repository
+Repository "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/ca-bundle-1.17" does not exist, cloning...
+
+Prepared local dir: "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/ca-bundle-1.17"
+Handling lib "rpc-service-config"...
+The --lib flag was not given for it, checking repository
+Repository "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-service-config-1.17" does not exist, cloning...
+
+Prepared local dir: "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-service-config-1.17"
+Handling lib "rpc-common"...
+The --lib flag was not given for it, checking repository
+Repository "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-common-1.17" does not exist, cloning...
+
+Prepared local dir: "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-common-1.17"
+Handling lib "http-server"...
+Optional, skipping
+Handling lib "rpc-service-fs"...
+The --lib flag was not given for it, checking repository
+Repository "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-service-fs-1.17" does not exist, cloning...
+
+Prepared local dir: "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-service-fs-1.17"
+Handling lib "rpc-common"...
+Already handled, skipping
+Handling lib "rpc-uart"...
+The --lib flag was not given for it, checking repository
+Repository "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-uart-1.17" does not exist, cloning...
+
+Prepared local dir: "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-uart-1.17"
+Handling lib "rpc-common"...
+Already handled, skipping
+Handling lib "wifi"...
+The --lib flag was not given for it, checking repository
+Repository "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/wifi-1.17" does not exist, cloning...
+
+Prepared local dir: "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/wifi-1.17"
+Handling lib "http-server"...
+The --lib flag was not given for it, checking repository
+Repository "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/http-server-1.17" does not exist, cloning...
+
+Prepared local dir: "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/http-server-1.17"
+Handling lib "atca"...
+Optional, skipping
+Handling lib "ethernet"...
+Optional, skipping
+Handling lib "wifi"...
+Already handled, skipping
+The flag --repo is not given, going to use mongoose-os repository
+Sources: [/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/ca-bundle-1.17/src/*.c /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/ca-bundle-1.17/src/*.cpp /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/wifi-1.17/src/*.c /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/wifi-1.17/src/*.cpp /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/wifi-1.17/esp32/src/*.c /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/wifi-1.17/esp32/src/*.cpp /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/http-server-1.17/src/*.c /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/http-server-1.17/src/*.cpp /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-common-1.17/src/mg_rpc/*.c /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-common-1.17/src/mg_rpc/*.cpp /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-common-1.17/src/*.c /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-common-1.17/src/*.cpp /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-service-config-1.17/src/*.c /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-service-config-1.17/src/*.cpp /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-service-fs-1.17/src/*.c /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-service-fs-1.17/src/*.cpp /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-uart-1.17/src/*.c /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-uart-1.17/src/*.cpp /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/src/*.c /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/src/*.cpp /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/build/gen/deps_init.c]
+Building...
+mount from "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746" to "/app"
+
+mount from "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/modules/mongoose-os-1.17" to "/mongoose-os"
+
+mount from "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/modules/mongoose-os-1.17" to "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/modules/mongoose-os-1.17"
+
+mount from "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/build" to "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/build"
+
+mount from "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/ca-bundle-1.17/src" to "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/ca-bundle-1.17/src"
+
+mount from "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/wifi-1.17/src" to "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/wifi-1.17/src"
+
+mount from "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/wifi-1.17/esp32/src" to "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/wifi-1.17/esp32/src"
+
+mount from "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/http-server-1.17/src" to "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/http-server-1.17/src"
+
+mount from "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-common-1.17/src/mg_rpc" to "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-common-1.17/src/mg_rpc"
+
+mount from "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-common-1.17/src" to "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-common-1.17/src"
+
+mount from "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-service-config-1.17/src" to "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-service-config-1.17/src"
+
+mount from "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-service-fs-1.17/src" to "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-service-fs-1.17/src"
+
+mount from "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-uart-1.17/src" to "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-uart-1.17/src"
+
+mount from "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/src" to "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/src"
+
+mount from "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/build/gen" to "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/build/gen"
+
+mount from "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/ca-bundle-1.17/fs" to "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/ca-bundle-1.17/fs"
+
+mount from "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/fs" to "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/fs"
+
+mount from "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/build/gen" to "/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/build/gen"
+
+Docker arguments: run --name mos_build_2017-09-30T21-06-37-00 --rm -i -v /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/http-server-1.17/src:/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/http-server-1.17/src -v /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-common-1.17/src/mg_rpc:/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-common-1.17/src/mg_rpc -v /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-common-1.17/src:/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-common-1.17/src -v /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/src:/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/src -v /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/ca-bundle-1.17/fs:/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/ca-bundle-1.17/fs -v /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/fs:/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/fs -v /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-service-config-1.17/src:/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-service-config-1.17/src -v /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-uart-1.17/src:/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-uart-1.17/src -v /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/build/gen:/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/build/gen -v /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746:/app -v /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/build:/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/build -v /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/ca-bundle-1.17/src:/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/ca-bundle-1.17/src -v /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/wifi-1.17/src:/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/wifi-1.17/src -v /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/wifi-1.17/esp32/src:/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/wifi-1.17/esp32/src -v /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/modules/mongoose-os-1.17:/mongoose-os -v /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/modules/mongoose-os-1.17:/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/modules/mongoose-os-1.17 -v /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-service-fs-1.17/src:/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-service-fs-1.17/src --user 0:0 docker.cesanta.com/esp32-build:2.1-r3 /bin/bash -c nice make '-j' '16' '-C' '/app' '-f' '/mongoose-os/fw/platforms/esp32/Makefile.build' 'all' 'APP_CXXFLAGS=-DMGOS_HAVE_RPC_COMMON=1 -DMGOS_HAVE_RPC_SERVICE_CONFIG=1 -DMGOS_HAVE_WIFI=1 -DMGOS_WIFI_ENABLE_AP_STA=1 -DMGOS_HAVE_RPC_SERVICE_FS=1 -DMGOS_ENABLE_WEB_CONFIG=0 -DMGOS_HAVE_RPC_UART=1 -DMGOS_ENABLE_RPC_CHANNEL_HTTP=1 -DMGOS_ENABLE_RPC_CHANNEL_WS=1 -DMGOS_ENABLE_SYS_SERVICE=1 -DMGOS_ENABLE_FILE_UPLOAD=1 -DMGOS_ENABLE_TUNNEL=0 -DMGOS_HAVE_CA_BUNDLE=1 -DMGOS_HAVE_HTTP_SERVER=1' 'MANIFEST_FINAL=/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/build/gen/mos_final.yml' 'FS_STAGING_DIR=build/fs' 'APP_FS_FILES=/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/ca-bundle-1.17/fs/* /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/fs/*' 'ESP_IDF_EXTRA_COMPONENTS=' 'MGOS_HAVE_RPC_COMMON=1' 'MGOS_HAVE_HTTP_SERVER=1' 'MGOS_HAVE_CA_BUNDLE=1' 'APP_BIN_LIBS=' 'APP_VERSION=1.0' 'GEN_DIR=/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/build/gen' 'PLATFORM=esp32' 'APP_CONF_SCHEMA=/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/build/gen/mos_conf_schema.yml' 'MGOS_WIFI_ENABLE_AP_STA=1' 'MGOS_HAVE_RPC_SERVICE_CONFIG=1' 'MGOS_HAVE_RPC_UART=1' 'FW_DIR=build/fw' 'ESP_IDF_SDKCONFIG_OPTS=' 'MGOS_HAVE_WIFI=1' 'FFI_SYMBOLS=' 'APP_SOURCES=/fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/ca-bundle-1.17/src/*.c /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/ca-bundle-1.17/src/*.cpp /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/wifi-1.17/src/*.c /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/wifi-1.17/src/*.cpp /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/wifi-1.17/esp32/src/*.c /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/wifi-1.17/esp32/src/*.cpp /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/http-server-1.17/src/*.c /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/http-server-1.17/src/*.cpp /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-common-1.17/src/mg_rpc/*.c /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-common-1.17/src/mg_rpc/*.cpp /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-common-1.17/src/*.c /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-common-1.17/src/*.cpp /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-service-config-1.17/src/*.c /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-service-config-1.17/src/*.cpp /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-service-fs-1.17/src/*.c /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-service-fs-1.17/src/*.cpp /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-uart-1.17/src/*.c /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-uart-1.17/src/*.cpp /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/src/*.c /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/src/*.cpp /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/build/gen/deps_init.c' 'MGOS_PATH=/mongoose-os' 'MGOS_HAVE_RPC_SERVICE_FS=1' 'BUILD_DIR=build/objs' 'APP_CFLAGS=-DMGOS_ENABLE_WEB_CONFIG=0 -DMGOS_HAVE_RPC_UART=1 -DMGOS_ENABLE_RPC_CHANNEL_HTTP=1 -DMGOS_ENABLE_RPC_CHANNEL_WS=1 -DMGOS_ENABLE_SYS_SERVICE=1 -DMGOS_ENABLE_FILE_UPLOAD=1 -DMGOS_ENABLE_TUNNEL=0 -DMGOS_HAVE_CA_BUNDLE=1 -DMGOS_HAVE_HTTP_SERVER=1 -DMGOS_HAVE_RPC_COMMON=1 -DMGOS_HAVE_RPC_SERVICE_CONFIG=1 -DMGOS_HAVE_WIFI=1 -DMGOS_WIFI_ENABLE_AP_STA=1 -DMGOS_HAVE_RPC_SERVICE_FS=1' 'APP=mjs-latest'
+make: Entering directory '/app'
+including /opt/Espressif/esp-idf/components/bootloader/Makefile.projbuild...
+including /opt/Espressif/esp-idf/components/bootloader_support/Makefile.projbuild...
+including /opt/Espressif/esp-idf/components/esp32/Makefile.projbuild...
+including /opt/Espressif/esp-idf/components/esptool_py/Makefile.projbuild...
+including /opt/Espressif/esp-idf/components/partition_table/Makefile.projbuild...
+/mongoose-os/fw/platforms/esp32/Makefile.build:168: warning: overriding recipe for target 'defconfig'
+/opt/Espressif/esp-idf/make/project_config.mk:71: warning: ignoring old recipe for target 'defconfig'
+/mongoose-os/fw/platforms/esp32/Makefile.build:168: warning: overriding recipe for target 'menuconfig'
+/opt/Espressif/esp-idf/make/project_config.mk:58: warning: ignoring old recipe for target 'menuconfig'
+#
+# configuration written to /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/build/gen/sdkconfig
+#
+make[1]: Entering directory '/app/build/objs/cs_mbedtls'
+make[1]: Entering directory '/app/build/objs/cryptoauthlib'
+make[1]: Entering directory '/app/build/objs/spiffs'
+make[1]: Entering directory '/app/build/objs/soc'
+make[1]: Entering directory '/app/build/objs/spi_flash'
+make[1]: Entering directory '/app/build/objs/partition_table'
+make[1]: Entering directory '/app/build/objs/xtensa-debug-module'
+make[1]: Entering directory '/app/build/objs/tcpip_adapter'
+make[1]: Entering directory '/app/build/objs/src'
+make[1]: Entering directory '/app/build/objs/micro-ecc'
+make[1]: Leaving directory '/app/build/objs/partition_table'
+make[1]: Entering directory '/app/build/objs/newlib'
+make[1]: Entering directory '/app/build/objs/vfs'
+make[1]: Entering directory '/app/build/objs/nvs_flash'
+make[1]: Entering directory '/app/build/objs/log'
+make[1]: Entering directory '/app/build/objs/wpa_supplicant'
+make[1]: Entering directory '/app/build/objs/heap'
+make[1]: Entering directory '/app/build/objs/lwip'
+make[1]: Leaving directory '/app/build/objs/tcpip_adapter'
+make[1]: Leaving directory '/app/build/objs/src'
+make[1]: Leaving directory '/app/build/objs/spi_flash'
+make[1]: Leaving directory '/app/build/objs/cryptoauthlib'
+make[1]: Leaving directory '/app/build/objs/wpa_supplicant'
+make[1]: Leaving directory '/app/build/objs/micro-ecc'
+make[1]: Leaving directory '/app/build/objs/soc'
+make[1]: Leaving directory '/app/build/objs/log'
+make[1]: Entering directory '/app/build/objs/freertos'
+make[1]: Leaving directory '/app/build/objs/newlib'
+make[1]: Entering directory '/app/build/objs/expat'
+make[1]: Entering directory '/app/build/objs/ethernet'
+make[1]: Leaving directory '/app/build/objs/xtensa-debug-module'
+make[1]: Leaving directory '/app/build/objs/heap'
+make[1]: Entering directory '/app/build/objs/esptool_py'
+make[1]: Leaving directory '/app/build/objs/nvs_flash'
+make[1]: Leaving directory '/app/build/objs/esptool_py'
+make[1]: Leaving directory '/app/build/objs/spiffs'
+make[1]: Leaving directory '/app/build/objs/cs_mbedtls'
+make[1]: Entering directory '/app/build/objs/bootloader'
+make[1]: Leaving directory '/app/build/objs/vfs'
+make[1]: Leaving directory '/app/build/objs/lwip'
+make[1]: Entering directory '/app/build/objs/driver'
+make[1]: Entering directory '/app/build/objs/esp32'
+make[1]: Entering directory '/app/build/objs/bootloader_support'
+make[1]: Entering directory '/app/build/objs/app_update'
+make[1]: Leaving directory '/app/build/objs/bootloader'
+make[1]: Entering directory '/app/build/objs/app_trace'
+make[1]: Leaving directory '/app/build/objs/ethernet'
+make[1]: Leaving directory '/app/build/objs/freertos'
+make[1]: Leaving directory '/app/build/objs/expat'
+make[1]: Leaving directory '/app/build/objs/driver'
+make[1]: Leaving directory '/app/build/objs/bootloader_support'
+make[1]: Leaving directory '/app/build/objs/app_update'
+make[1]: Leaving directory '/app/build/objs/esp32'
+make[1]: Leaving directory '/app/build/objs/app_trace'
+make[1]: Entering directory '/app/build/objs/bt'
+make[1]: Leaving directory '/app/build/objs/bt'
+including /opt/Espressif/esp-idf/components/bootloader/Makefile.projbuild...
+including /opt/Espressif/esp-idf/components/bootloader_support/Makefile.projbuild...
+including /opt/Espressif/esp-idf/components/esp32/Makefile.projbuild...
+including /opt/Espressif/esp-idf/components/esptool_py/Makefile.projbuild...
+including /opt/Espressif/esp-idf/components/partition_table/Makefile.projbuild...
+Building partitions from /mongoose-os/fw/platforms/esp32/src/partitions_mgos.csv...
+make[1]: Entering directory '/app/build/objs/app_update'
+make[1]: Entering directory '/opt/Espressif/esp-idf/components/bootloader/subproject'
+make[1]: Entering directory '/app/build/objs/app_trace'
+make[1]: Entering directory '/app/build/objs/bootloader_support'
+make[1]: Entering directory '/app/build/objs/driver'
+CC /app/build/objs/driver/spi_master.o
+make[1]: Entering directory '/app/build/objs/heap'
+make[1]: Entering directory '/app/build/objs/freertos'
+CC /app/build/objs/app_trace/app_trace.o
+CC /app/build/objs/heap/multi_heap.o
+make[1]: Entering directory '/app/build/objs/log'
+CC /app/build/objs/app_trace/app_trace_util.o
+make[1]: Entering directory '/app/build/objs/esp32'
+CC /app/build/objs/log/log.o
+make[1]: Entering directory '/app/build/objs/micro-ecc'
+make[1]: Entering directory '/app/build/objs/lwip'
+make[1]: Entering directory '/app/build/objs/ethernet'
+make[1]: Entering directory '/app/build/objs/expat'
+CC /app/build/objs/app_update/esp_ota_ops.o
+make[1]: Entering directory '/app/build/objs/bt'
+CC /app/build/objs/freertos/ringbuf.o
+CC /app/build/objs/micro-ecc/micro-ecc/uECC.o
+CC /app/build/objs/bootloader_support/src/esp_ota_select.o
+make[1]: Entering directory '/app/build/objs/newlib'
+CC /app/build/objs/esp32/panic.o
+CC /app/build/objs/newlib/time.o
+CC /app/build/objs/expat/library/xmltok_ns.o
+CC /app/build/objs/ethernet/emac_dev.o
+CC /app/build/objs/expat/library/xmltok.o
+CC /app/build/objs/ethernet/emac_main.o
+AR /app/build/objs/app_trace/libapp_trace.a
+AR /app/build/objs/log/liblog.a
+CC /app/build/objs/bootloader_support/src/bootloader_flash.o
+CC /app/build/objs/lwip/api/pppapi.o
+make[1]: Leaving directory '/app/build/objs/app_trace'
+make[1]: Entering directory '/app/build/objs/nvs_flash'
+make[1]: Leaving directory '/app/build/objs/log'
+CXX /app/build/objs/nvs_flash/src/nvs_types.o
+CC /app/build/objs/ethernet/eth_phy/phy_common.o
+CC /app/build/objs/heap/heap_caps_init.o
+make[1]: Entering directory '/app/build/objs/soc'
+AR /app/build/objs/app_update/libapp_update.a
+CC /app/build/objs/newlib/reent_init.o
+make[1]: Leaving directory '/app/build/objs/app_update'
+make[1]: Entering directory '/app/build/objs/spi_flash'
+CC /app/build/objs/soc/esp32/rtc_pm.o
+CC /app/build/objs/freertos/xtensa_intr.o
+CC /app/build/objs/spi_flash/flash_mmap.o
+CC /app/build/objs/esp32/core_dump.o
+CC /app/build/objs/driver/sigmadelta.o
+CC /app/build/objs/bootloader_support/src/efuse.o
+CC /app/build/objs/lwip/api/netbuf.o
+CC /app/build/objs/newlib/syscalls.o
+CC /app/build/objs/lwip/api/api_lib.o
+CC /app/build/objs/freertos/queue.o
+CC /app/build/objs/heap/heap_caps.o
+CC /app/build/objs/soc/esp32/cpu_util.o
+including /opt/Espressif/esp-idf/components/esptool_py/Makefile.projbuild...
+including /opt/Espressif/esp-idf/components/bootloader_support/Makefile.projbuild...
+including /opt/Espressif/esp-idf/components/bootloader/subproject/main/Makefile.projbuild...
+CC /app/build/objs/spi_flash/partition.o
+CC /app/build/objs/driver/uart.o
+CC /app/build/objs/bt/bt.o
+make[2]: Entering directory '/app/build/objs/bootloader/main'
+Building component project variables list /app/build/objs/bootloader/main/component_project_vars.mk
+make[2]: Leaving directory '/app/build/objs/bootloader/main'
+make[2]: Entering directory '/app/build/objs/bootloader/soc'
+CC /app/build/objs/ethernet/eth_phy/phy_lan8720.o
+CC /app/build/objs/bootloader_support/src/secure_boot.o
+Building component project variables list /app/build/objs/bootloader/soc/component_project_vars.mk
+CC /app/build/objs/newlib/syscall_table.o
+CC /app/build/objs/esp32/lib_printf.o
+CC /app/build/objs/soc/esp32/soc_memory_layout.o
+CC /app/build/objs/lwip/api/netifapi.o
+make[2]: Leaving directory '/app/build/objs/bootloader/soc'
+make[2]: Entering directory '/app/build/objs/bootloader/micro-ecc'
+Building component project variables list /app/build/objs/bootloader/micro-ecc/component_project_vars.mk
+make[2]: Leaving directory '/app/build/objs/bootloader/micro-ecc'
+make[2]: Entering directory '/app/build/objs/bootloader/spi_flash'
+Building component project variables list /app/build/objs/bootloader/spi_flash/component_project_vars.mk
+make[2]: Leaving directory '/app/build/objs/bootloader/spi_flash'
+make[2]: Entering directory '/app/build/objs/bootloader/log'
+Building component project variables list /app/build/objs/bootloader/log/component_project_vars.mk
+make[2]: Leaving directory '/app/build/objs/bootloader/log'
+make[2]: Entering directory '/app/build/objs/bootloader/bootloader_support'
+AR /app/build/objs/heap/libheap.a
+CC /app/build/objs/lwip/api/tcpip.o
+make[1]: Leaving directory '/app/build/objs/heap'
+make[1]: Entering directory '/app/build/objs/tcpip_adapter'
+CC /app/build/objs/tcpip_adapter/tcpip_adapter_lwip.o
+Building component project variables list /app/build/objs/bootloader/bootloader_support/component_project_vars.mk
+CC /app/build/objs/soc/esp32/rtc_time.o
+CC /app/build/objs/newlib/locks.o
+make[2]: Leaving directory '/app/build/objs/bootloader/bootloader_support'
+make[2]: Entering directory '/app/build/objs/bootloader/esptool_py'
+make[2]: Leaving directory '/app/build/objs/bootloader/esptool_py'
+CC /app/build/objs/lwip/api/netdb.o
+CC /app/build/objs/ethernet/eth_phy/phy_tlk110.o
+CC /app/build/objs/spi_flash/spi_flash_rom_patch.o
+CC /app/build/objs/esp32/task_wdt.o
+AR /app/build/objs/micro-ecc/libmicro-ecc.a
+make[1]: Leaving directory '/app/build/objs/micro-ecc'
+make[1]: Entering directory '/app/build/objs/vfs'
+CC /app/build/objs/vfs/vfs_uart.o
+CC /app/build/objs/lwip/api/err.o
+CXX /app/build/objs/nvs_flash/src/nvs_item_hash_list.o
+CC /app/build/objs/bootloader_support/src/secure_boot_signatures.o
+CC /app/build/objs/freertos/croutine.o
+AR /app/build/objs/ethernet/libethernet.a
+CC /app/build/objs/bt/bluedroid/bta/dm/bta_dm_api.o
+CC /app/build/objs/soc/esp32/rtc_init.o
+CC /app/build/objs/esp32/sleep_modes.o
+CC /app/build/objs/lwip/api/api_msg.o
+make[1]: Leaving directory '/app/build/objs/ethernet'
+make[1]: Entering directory '/app/build/objs/wpa_supplicant'
+AR /app/build/objs/newlib/libnewlib.a
+make[1]: Leaving directory '/app/build/objs/newlib'
+make[1]: Entering directory '/app/build/objs/xtensa-debug-module'
+CC /app/build/objs/xtensa-debug-module/eri.o
+CC /app/build/objs/wpa_supplicant/src/crypto/aes-internal-enc.o
+including /opt/Espressif/esp-idf/components/esptool_py/Makefile.projbuild...
+including /opt/Espressif/esp-idf/components/bootloader_support/Makefile.projbuild...
+including /opt/Espressif/esp-idf/components/bootloader/subproject/main/Makefile.projbuild...
+CC /app/build/objs/lwip/api/sockets.o
+CC /app/build/objs/bootloader_support/src/flash_partitions.o
+CC /app/build/objs/vfs/vfs.o
+CC /app/build/objs/spi_flash/cache_utils.o
+CC /app/build/objs/soc/esp32/rtc_sleep.o
+CC /app/build/objs/freertos/list.o
+CC /app/build/objs/xtensa-debug-module/trax.o
+CC /app/build/objs/bootloader_support/src/esp_image_format.o
+make[2]: Entering directory '/app/build/objs/bootloader/bootloader_support'
+AR /app/build/objs/xtensa-debug-module/libxtensa-debug-module.a
+make[1]: Leaving directory '/app/build/objs/xtensa-debug-module'
+AR /app/build/objs/tcpip_adapter/libtcpip_adapter.a
+make[1]: Leaving directory '/app/build/objs/tcpip_adapter'
+make[1]: Entering directory '/app/build/objs/src'
+  GEN   /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/build/gen/sys_config.c
+CC /app/build/objs/freertos/xtensa_init.o
+make[1]: Entering directory '/app/build/objs/spiffs'
+CC /app/build/objs/spiffs/spiffs_cache.o
+CC /app/build/objs/wpa_supplicant/src/crypto/sha256-internal.o
+CC /app/build/objs/spi_flash/flash_ops.o
+CC /app/build/objs/soc/esp32/rtc_clk.o
+CC /app/build/objs/esp32/spiram.o
+CC /app/build/objs/driver/i2c.o
+CC /app/build/objs/spiffs/spiffs_gc.o
+CC /app/build/objs/freertos/port.o
+CC /app/build/objs/bootloader_support/src/bootloader_sha.o
+CC /app/build/objs/esp32/system_api.o
+AR /app/build/objs/vfs/libvfs.a
+make[1]: Leaving directory '/app/build/objs/vfs'
+make[1]: Entering directory '/app/build/objs/cryptoauthlib'
+CC /app/build/objs/bootloader_support/src/flash_encrypt.o
+  GEN   /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/build/gen/sys_ro_vars.c
+CC /app/build/objs/freertos/event_groups.o
+CC /app/build/objs/wpa_supplicant/src/crypto/md5-internal.o
+CC /app/build/objs/cryptoauthlib/lib/atca_command.o
+AR /app/build/objs/spi_flash/libspi_flash.a
+make[1]: Leaving directory '/app/build/objs/spi_flash'
+AR /app/build/objs/soc/libsoc.a
+make[1]: Entering directory '/app/build/objs/cs_mbedtls'
+CC /app/build/objs/bt/bluedroid/bta/dm/bta_dm_sco.o
+AR /app/build/objs/cs_mbedtls/libcs_mbedtls.a
+make[1]: Leaving directory '/app/build/objs/soc'
+make[1]: Leaving directory '/app/build/objs/cs_mbedtls'
+  MKDIR /app/build/objs/fw_temp
+  MKDIR /app/build/fw
+CC /app/build/objs/cryptoauthlib/lib/atca_iface.o
+CC /app/build/objs/lwip/apps/dhcpserver.o
+CC /app/build/objs/bt/bluedroid/bta/dm/bta_dm_ci.o
+AS /app/build/objs/src/esp32_nsleep100.o
+CC /app/build/objs/freertos/tasks.o
+CC /app/build/objs/esp32/restore.o
+CC /app/build/objs/spiffs/spiffs_nucleus.o
+CXX /app/build/objs/nvs_flash/src/nvs_pagemanager.o
+CC mgos_ca_bundle.o
+CC mjs_wifi.o
+CC /app/build/objs/bootloader_support/src/bootloader_random.o
+CC /app/build/objs/cryptoauthlib/lib/atca_cfgs.o
+CC /app/build/objs/bt/bluedroid/bta/dm/bta_dm_act.o
+CC /app/build/objs/wpa_supplicant/src/crypto/aes-internal.o
+CC /app/build/objs/esp32/int_wdt.o
+CC /app/build/objs/bt/bluedroid/bta/dm/bta_dm_pm.o
+CC /app/build/objs/driver/sdspi_transaction.o
+CC /app/build/objs/cryptoauthlib/lib/atca_device.o
+CC mgos_wifi.o
+CC esp32_wifi.o
+CC /app/build/objs/cryptoauthlib/lib/basic/atca_basic.o
+CC /app/build/objs/esp32/phy_init.o
+CC /app/build/objs/lwip/apps/sntp/sntp.o
+CC /app/build/objs/driver/ledc.o
+CC /app/build/objs/bt/bluedroid/bta/dm/bta_dm_main.o
+CC /app/build/objs/wpa_supplicant/src/crypto/sha1.o
+AR /app/build/objs/bootloader_support/libbootloader_support.a
+make[1]: Leaving directory '/app/build/objs/bootloader_support'
+CC /app/build/objs/wpa_supplicant/src/crypto/aes-internal-dec.o
+CC /app/build/objs/esp32/esp_timer_esp32.o
+CC /app/build/objs/wpa_supplicant/src/crypto/aes-unwrap.o
+CC /app/build/objs/lwip/apps/ping/ping.o
+CC /app/build/objs/lwip/apps/ping/esp_ping.o
+CC mgos_http_server.o
+CC /app/build/objs/bt/bluedroid/bta/dm/bta_dm_cfg.o
+CC mg_rpc_channel_http.o
+CC /app/build/objs/esp32/cpu_start.o
+CC /app/build/objs/esp32/clk.o
+CC /app/build/objs/wpa_supplicant/src/crypto/crypto_internal-rsa.o
+CC /app/build/objs/wpa_supplicant/src/crypto/des-internal.o
+CC /app/build/objs/freertos/timers.o
+CC /app/build/objs/lwip/core/stats.o
+CC /app/build/objs/esp32/freertos_hooks.o
+CC /app/build/objs/lwip/core/mem.o
+CC /app/build/objs/wpa_supplicant/src/crypto/dh_groups.o
+CC /app/build/objs/bt/bluedroid/bta/gatt/bta_gatts_main.o
+CC mg_rpc.o
+make[2]: Leaving directory '/app/build/objs/bootloader/bootloader_support'
+make[2]: Entering directory '/app/build/objs/bootloader/log'
+CC mg_rpc_channel_tcp_common.o
+CC /app/build/objs/esp32/gdbstub.o
+CC /app/build/objs/lwip/core/inet_chksum.o
+CC /app/build/objs/driver/spi_common.o
+CC /app/build/objs/lwip/core/init.o
+CC /app/build/objs/wpa_supplicant/src/crypto/ms_funcs.o
+CC /app/build/objs/freertos/FreeRTOS-openocd.o
+make[2]: Leaving directory '/app/build/objs/bootloader/log'
+make[2]: Entering directory '/app/build/objs/bootloader/spi_flash'
+CC /app/build/objs/freertos/xtensa_overlay_os_hook.o
+CC /app/build/objs/wpa_supplicant/src/crypto/aes-wrap.o
+CC mg_rpc_channel_ws.o
+CC /app/build/objs/bt/bluedroid/bta/gatt/bta_gatt_common.o
+CC /app/build/objs/spiffs/spiffs_check.o
+CC /app/build/objs/lwip/core/memp.o
+AS /app/build/objs/freertos/xtensa_context.o
+CC /app/build/objs/wpa_supplicant/src/crypto/sha1-internal.o
+CC /app/build/objs/esp32/crosscore_int.o
+CC /app/build/objs/esp32/fast_crypto_ops.o
+CC /app/build/objs/lwip/core/tcp_in.o
+AS /app/build/objs/freertos/portasm.o
+AS /app/build/objs/freertos/xtensa_vectors.o
+CC /app/build/objs/wpa_supplicant/src/crypto/md4-internal.o
+CC /app/build/objs/lwip/core/dns.o
+AS /app/build/objs/freertos/xtensa_vector_defaults.o
+CC /app/build/objs/cryptoauthlib/lib/basic/atca_helpers.o
+CC /app/build/objs/cryptoauthlib/lib/host/atca_host.o
+CC /app/build/objs/expat/library/xmlparse.o
+AS /app/build/objs/freertos/xtensa_intr_asm.o
+make[2]: Leaving directory '/app/build/objs/bootloader/spi_flash'
+make[2]: Entering directory '/app/build/objs/bootloader/micro-ecc'
+CC /app/build/objs/esp32/cache_err_int.o
+CC /app/build/objs/driver/sdspi_host.o
+CC mgos_rpc.o
+AR /app/build/objs/freertos/libfreertos.a
+CXX /app/build/objs/nvs_flash/src/nvs_api.o
+make[1]: Leaving directory '/app/build/objs/freertos'
+Target 'component-app_trace-build' responsible for '/app/build/objs/app_trace/libapp_trace.a'
+CC /app/build/objs/driver/gpio.o
+CC /app/build/objs/esp32/ipc.o
+CC /app/build/objs/esp32/intr_alloc.o
+CC /app/build/objs/esp32/ets_timer_legacy.o
+CC /app/build/objs/wpa_supplicant/src/crypto/dh_group5.o
+CC /app/build/objs/spiffs/spiffs_hydrogen.o
+CC /app/build/objs/bt/bluedroid/bta/gatt/bta_gattc_api.o
+make[2]: Entering directory '/app/build/objs/bootloader/soc'
+CC mgos_service_config.o
+CC /app/build/objs/wpa_supplicant/src/crypto/crypto_internal.o
+CC /app/build/objs/driver/pcnt.o
+CC /app/build/objs/wpa_supplicant/src/crypto/sha256.o
+AR /app/build/objs/cryptoauthlib/libcryptoauthlib.a
+CC /app/build/objs/lwip/core/ip.o
+make[1]: Leaving directory '/app/build/objs/cryptoauthlib'
+Target 'component-app_update-build' responsible for '/app/build/objs/app_update/libapp_update.a'
+Target 'component-bootloader_support-build' responsible for '/app/build/objs/bootloader_support/libbootloader_support.a'
+CC /app/build/objs/wpa_supplicant/src/crypto/md5.o
+CC mgos_service_filesystem.o
+CC /app/build/objs/esp32/wifi_init.o
+CC /app/build/objs/esp32/event_loop.o
+CC /app/build/objs/wpa_supplicant/src/crypto/aes-cbc.o
+CC /app/build/objs/esp32/spiram_psram.o
+CC mgos_rpc_channel_uart.o
+CC /app/build/objs/wpa_supplicant/src/crypto/sha1-pbkdf2.o
+CC /app/build/objs/lwip/core/raw.o
+CC /app/build/objs/esp32/hw_random.o
+CC /app/build/objs/esp32/esp_timer.o
+CC /app/build/objs/esp32/dport_access.o
+CC /app/build/objs/driver/sdspi_crc.o
+CC /app/build/objs/driver/rmt.o
+CC /app/build/objs/bt/bluedroid/bta/gatt/bta_gattc_cache.o
+CC /app/build/objs/wpa_supplicant/src/crypto/rc4.o
+AR /app/build/objs/spiffs/libspiffs.a
+CC main.o
+make[1]: Leaving directory '/app/build/objs/spiffs'
+Target 'component-ethernet-build' responsible for '/app/build/objs/ethernet/libethernet.a'
+CC /app/build/objs/driver/mcpwm.o
+CC /app/build/objs/driver/sdmmc_transaction.o
+CC /app/build/objs/esp32/brownout.o
+Target 'component-freertos-build' responsible for '/app/build/objs/freertos/libfreertos.a'
+CC /app/build/objs/driver/spi_slave.o
+CC /app/build/objs/esp32/event_default_handlers.o
+CC /app/build/objs/wpa_supplicant/src/crypto/crypto_internal-modexp.o
+CC /app/build/objs/wpa_supplicant/src/crypto/crypto_internal-cipher.o
+CC /app/build/objs/wpa_supplicant/src/crypto/bignum.o
+CC deps_init.o
+CC /app/build/objs/lwip/core/tcp.o
+CC /app/build/objs/lwip/core/def.o
+CC /app/build/objs/wpa_supplicant/port/os_xtensa.o
+make[2]: Leaving directory '/app/build/objs/bootloader/micro-ecc'
+make[2]: Entering directory '/app/build/objs/bootloader/main'
+  GEN   /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/build/gen/ffi_exports.c
+CC /app/build/objs/lwip/core/netif.o
+CC /app/build/objs/driver/i2s.o
+CC /app/build/objs/esp32/hwcrypto/sha.o
+CC /app/build/objs/driver/sdmmc_host.o
+make[2]: Leaving directory '/app/build/objs/bootloader/soc'
+Target 'component-bootloader_support-build' responsible for '/app/build/objs/bootloader/bootloader_support/libbootloader_support.a'
+Target 'component-log-build' responsible for '/app/build/objs/bootloader/log/liblog.a'
+Target 'component-spi_flash-build' responsible for '/app/build/objs/bootloader/spi_flash/libspi_flash.a'
+CC /app/build/objs/wpa_supplicant/src/fast_crypto/fast_aes-wrap.o
+Target 'component-micro-ecc-build' responsible for '/app/build/objs/bootloader/micro-ecc/libmicro-ecc.a'
+Target 'component-soc-build' responsible for '/app/build/objs/bootloader/soc/libsoc.a'
+CC /app/build/objs/lwip/core/sys.o
+CC /app/build/objs/lwip/core/timers.o
+CC mgos_debug.o
+CC mgos_net.o
+CC /app/build/objs/esp32/hwcrypto/aes.o
+CC /app/build/objs/wpa_supplicant/src/fast_crypto/fast_sha256-internal.o
+CC /app/build/objs/bt/bluedroid/bta/gatt/bta_gattc_main.o
+CC /app/build/objs/lwip/core/pbuf.o
+make[2]: Leaving directory '/app/build/objs/bootloader/main'
+Target 'component-main-build' responsible for '/app/build/objs/bootloader/main/libmain.a'
+CC /app/build/objs/driver/timer.o
+CC /app/build/objs/bt/bluedroid/bta/gatt/bta_gatts_api.o
+CC /app/build/objs/lwip/core/udp.o
+CC /app/build/objs/wpa_supplicant/src/fast_crypto/fast_aes-cbc.o
+CC mgos_bitbang.o
+CC mgos_sntp.o
+AS /app/build/objs/esp32/dport_panic_highint_hdl.o
+CXX /app/build/objs/nvs_flash/src/nvs_storage.o
+AR /app/build/objs/esp32/libesp32.a
+CC /app/build/objs/driver/periph_ctrl.o
+CC /app/build/objs/bt/bluedroid/bta/gatt/bta_gattc_utils.o
+make[1]: Leaving directory '/app/build/objs/esp32'
+CC /app/build/objs/bt/bluedroid/bta/gatt/bta_gattc_act.o
+CC /app/build/objs/bt/bluedroid/bta/gatt/bta_gattc_ci.o
+CC /app/build/objs/bt/bluedroid/bta/gatt/bta_gatts_act.o
+CC /app/build/objs/wpa_supplicant/src/fast_crypto/fast_crypto_internal.o
+esptool.py v2.1
+make[1]: Leaving directory '/opt/Espressif/esp-idf/components/bootloader/subproject'
+Target 'component-heap-build' responsible for '/app/build/objs/heap/libheap.a'
+CC /app/build/objs/lwip/core/tcp_out.o
+Target 'component-log-build' responsible for '/app/build/objs/log/liblog.a'
+Target 'component-micro-ecc-build' responsible for '/app/build/objs/micro-ecc/libmicro-ecc.a'
+Target 'component-newlib-build' responsible for '/app/build/objs/newlib/libnewlib.a'
+Target 'component-soc-build' responsible for '/app/build/objs/soc/libsoc.a'
+Target 'component-spi_flash-build' responsible for '/app/build/objs/spi_flash/libspi_flash.a'
+Target 'component-tcpip_adapter-build' responsible for '/app/build/objs/tcpip_adapter/libtcpip_adapter.a'
+Target 'component-vfs-build' responsible for '/app/build/objs/vfs/libvfs.a'
+Target 'component-xtensa-debug-module-build' responsible for '/app/build/objs/xtensa-debug-module/libxtensa-debug-module.a'
+CC /app/build/objs/bt/bluedroid/bta/gatt/bta_gatts_utils.o
+Target 'component-spiffs-build' responsible for '/app/build/objs/spiffs/libspiffs.a'
+CC mgos_config.o
+CC mgos_dlsym.o
+CC mgos_gpio.o
+CC mgos_hooks.o
+CC /app/build/objs/driver/rtc_module.o
+CC mgos_init.o
+CC /app/build/objs/lwip/core/ipv4/ip_frag.o
+CC /app/build/objs/wpa_supplicant/src/fast_crypto/fast_sha256.o
+CC /app/build/objs/lwip/core/ipv4/dhcp.o
+CC mgos_mmap_esp.o
+CC mgos_mongoose.o
+CC mgos_sys_config.o
+CC /app/build/objs/lwip/core/ipv4/ip4_addr.o
+CC /app/build/objs/wpa_supplicant/src/fast_crypto/fast_aes-unwrap.o
+CC /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/build/gen/sys_config.o
+CC /app/build/objs/wpa_supplicant/src/fast_crypto/fast_crypto_internal-modexp.o
+CC /app/build/objs/bt/bluedroid/bta/hh/bta_hh_api.o
+CC /app/build/objs/bt/bluedroid/bta/hh/bta_hh_utils.o
+CC /app/build/objs/wpa_supplicant/src/fast_crypto/fast_crypto_internal-cipher.o
+CC /app/build/objs/bt/bluedroid/bta/hh/bta_hh_act.o
+CC /app/build/objs/bt/bluedroid/bta/hh/bta_hh_le.o
+CC /app/build/objs/bt/bluedroid/bta/hh/bta_hh_main.o
+CC sys_ro_vars.o
+CC mgos_timers_mongoose.o
+CC /app/build/objs/bt/bluedroid/bta/hh/bta_hh_cfg.o
+CC mgos_uart.o
+CC /app/build/objs/lwip/core/ipv4/igmp.o
+CC /app/build/objs/bt/bluedroid/bta/sdp/bta_sdp_act.o
+CC /app/build/objs/bt/bluedroid/bta/sdp/bta_sdp.o
+Target 'component-cryptoauthlib-build' responsible for '/app/build/objs/cryptoauthlib/libcryptoauthlib.a'
+AR /app/build/objs/wpa_supplicant/libwpa_supplicant.a
+Target 'component-cs_mbedtls-build' responsible for '/app/build/objs/cs_mbedtls/libcs_mbedtls.a'
+Target 'component-esp32-build' responsible for '/app/build/objs/esp32/libesp32.a'
+CC /app/build/objs/bt/bluedroid/bta/sdp/bta_sdp_cfg.o
+CC /app/build/objs/bt/bluedroid/bta/sdp/bta_sdp_api.o
+CC /app/build/objs/bt/bluedroid/bta/av/bta_av_api.o
+make[1]: Leaving directory '/app/build/objs/wpa_supplicant'
+Target 'component-wpa_supplicant-build' responsible for '/app/build/objs/wpa_supplicant/libwpa_supplicant.a'
+CC mgos_utils.o
+CC mgos_vfs.o
+CC mgos_vfs_dev.o
+CC /app/build/objs/bt/bluedroid/bta/av/bta_av_ssm.o
+CC /app/build/objs/bt/bluedroid/bta/av/bta_av_cfg.o
+CC /app/build/objs/bt/bluedroid/bta/av/bta_av_ci.o
+CC /app/build/objs/bt/bluedroid/bta/av/bta_av_act.o
+CC mgos_vfs_fs_spiffs.o
+CC esp32_crypto.o
+CC /app/build/objs/lwip/core/ipv4/ip4.o
+CC /app/build/objs/bt/bluedroid/bta/av/bta_av_main.o
+CXX /app/build/objs/nvs_flash/src/nvs_page.o
+CC esp32_debug.o
+CC /app/build/objs/bt/bluedroid/bta/av/bta_av_sbc.o
+CC esp32_exc.o
+CC /app/build/objs/expat/library/xmlrole.o
+CC /app/build/objs/bt/bluedroid/bta/av/bta_av_aact.o
+CC /app/build/objs/bt/bluedroid/bta/ar/bta_ar.o
+CC /app/build/objs/lwip/core/ipv4/autoip.o
+CC /app/build/objs/lwip/core/ipv4/icmp.o
+CC /app/build/objs/bt/bluedroid/bta/sys/bta_sys_main.o
+CC /app/build/objs/lwip/core/ipv6/ip6_frag.o
+CC /app/build/objs/bt/bluedroid/bta/sys/utl.o
+CC /app/build/objs/bt/bluedroid/bta/sys/bta_sys_conn.o
+CC /app/build/objs/lwip/core/ipv6/dhcp6.o
+AR /app/build/objs/driver/libdriver.a
+make[1]: Leaving directory '/app/build/objs/driver'
+CC esp32_fs_crypt.o
+CC esp32_fs.o
+CC /app/build/objs/lwip/core/ipv6/inet6.o
+CC /app/build/objs/bt/bluedroid/btcore/bdaddr.o
+CC /app/build/objs/lwip/core/ipv6/ip6_addr.o
+CC /app/build/objs/lwip/core/ipv6/ip6.o
+CC /app/build/objs/lwip/core/ipv6/nd6.o
+CC /app/build/objs/expat/library/xmltok_impl.o
+CC /app/build/objs/expat/port/minicheck.o
+CC /app/build/objs/bt/bluedroid/btif/bta_gattc_co.o
+CC /app/build/objs/bt/bluedroid/btif/bta_dm_co.o
+CC /app/build/objs/expat/port/expat_element.o
+CC esp32_vfs_dev_partition.o
+CC /app/build/objs/bt/bluedroid/btif/bta_gatts_co.o
+CC esp32_gpio.o
+CC /app/build/objs/lwip/core/ipv6/mld6.o
+CC /app/build/objs/lwip/core/ipv6/ethip6.o
+CC /app/build/objs/bt/bluedroid/device/controller.o
+CC esp32_hal.o
+CC /app/build/objs/expat/port/chardata.o
+CC /app/build/objs/bt/bluedroid/device/interop.o
+CC esp32_main.o
+CC /app/build/objs/bt/bluedroid/hci/buffer_allocator.o
+CC esp32_mdns.o
+CC esp32_uart.o
+CC cs_crc32.o
+CC /app/build/objs/bt/bluedroid/hci/hci_hal_h4.o
+CC cs_dbg.o
+CC /app/build/objs/bt/bluedroid/hci/hci_packet_parser.o
+CC cs_file.o
+CC /app/build/objs/lwip/core/ipv6/icmp6.o
+AR /app/build/objs/expat/libexpat.a
+CC /app/build/objs/lwip/netif/slipif.o
+CC /app/build/objs/bt/bluedroid/hci/packet_fragmenter.o
+CC /app/build/objs/bt/bluedroid/hci/hci_layer.o
+make[1]: Leaving directory '/app/build/objs/expat'
+Target 'component-driver-build' responsible for '/app/build/objs/driver/libdriver.a'
+Target 'component-expat-build' responsible for '/app/build/objs/expat/libexpat.a'
+CC /app/build/objs/bt/bluedroid/hci/hci_packet_factory.o
+CC /app/build/objs/bt/bluedroid/main/bte_init.o
+CC /app/build/objs/bt/bluedroid/main/bte_main.o
+CC cs_rbuf.o
+CC json_utils.o
+CC /app/build/objs/lwip/netif/etharp.o
+CC frozen.o
+CC /app/build/objs/bt/bluedroid/osi/semaphore.o
+CC /app/build/objs/bt/bluedroid/osi/future.o
+CC /app/build/objs/bt/bluedroid/osi/hash_map.o
+CC /app/build/objs/bt/bluedroid/osi/fixed_queue.o
+CC /app/build/objs/bt/bluedroid/osi/config.o
+CC /app/build/objs/bt/bluedroid/osi/list.o
+CC mongoose.o
+CC /app/build/objs/bt/bluedroid/osi/mutex.o
+CC /app/build/objs/bt/bluedroid/osi/osi.o
+CC /app/build/objs/bt/bluedroid/osi/hash_functions.o
+CC /app/build/objs/ffi_exports.o
+CC /app/build/objs/bt/bluedroid/osi/alarm.o
+CC /app/build/objs/lwip/netif/ethernet.o
+CC /app/build/objs/bt/bluedroid/osi/buffer.o
+CC /app/build/objs/lwip/netif/lowpan6.o
+CC /app/build/objs/bt/bluedroid/osi/allocator.o
+CC /app/build/objs/lwip/netif/ethernetif.o
+CC /app/build/objs/bt/bluedroid/external/sbc/decoder/srce/bitstream-decode.o
+CC /app/build/objs/lwip/port/freertos/sys_arch.o
+CC /app/build/objs/lwip/port/netif/wlanif.o
+CC /app/build/objs/lwip/port/netif/ethernetif.o
+CC /app/build/objs/bt/bluedroid/external/sbc/decoder/srce/synthesis-dct8.o
+CC /app/build/objs/lwip/port/debug/lwip_debug.o
+CC /app/build/objs/bt/bluedroid/external/sbc/decoder/srce/synthesis-sbc.o
+CC /app/build/objs/bt/bluedroid/external/sbc/decoder/srce/decoder-oina.o
+AR /app/build/objs/nvs_flash/libnvs_flash.a
+make[1]: Leaving directory '/app/build/objs/nvs_flash'
+Target 'component-nvs_flash-build' responsible for '/app/build/objs/nvs_flash/libnvs_flash.a'
+CC /app/build/objs/bt/bluedroid/external/sbc/decoder/srce/bitalloc.o
+CC /app/build/objs/bt/bluedroid/external/sbc/decoder/srce/framing.o
+CC /app/build/objs/bt/bluedroid/external/sbc/decoder/srce/dequant.o
+CC /app/build/objs/bt/bluedroid/external/sbc/decoder/srce/alloc.o
+CC /app/build/objs/bt/bluedroid/external/sbc/decoder/srce/decoder-sbc.o
+CC /app/build/objs/bt/bluedroid/external/sbc/decoder/srce/decoder-private.o
+CC /app/build/objs/bt/bluedroid/external/sbc/decoder/srce/framing-sbc.o
+CC /app/build/objs/bt/bluedroid/external/sbc/decoder/srce/synthesis-8-generated.o
+CC /app/build/objs/bt/bluedroid/external/sbc/decoder/srce/oi_codec_version.o
+CC /app/build/objs/bt/bluedroid/external/sbc/decoder/srce/bitalloc-sbc.o
+CC /app/build/objs/bt/bluedroid/btc/core/btc_task.o
+CC /app/build/objs/bt/bluedroid/btc/core/btc_main.o
+CC /app/build/objs/bt/bluedroid/btc/core/btc_config.o
+CC /app/build/objs/bt/bluedroid/btc/core/btc_util.o
+CC /app/build/objs/bt/bluedroid/btc/core/btc_ble_storage.o
+CC /app/build/objs/bt/bluedroid/btc/core/btc_storage.o
+CC /app/build/objs/bt/bluedroid/btc/core/btc_profile_queue.o
+CC /app/build/objs/bt/bluedroid/btc/core/btc_alarm.o
+CC /app/build/objs/bt/bluedroid/btc/core/btc_manage.o
+CC /app/build/objs/bt/bluedroid/btc/core/btc_sec.o
+CC /app/build/objs/bt/bluedroid/btc/core/btc_sm.o
+CC /app/build/objs/bt/bluedroid/btc/core/btc_dev.o
+CC /app/build/objs/bt/bluedroid/btc/core/btc_dm.o
+AR /app/build/objs/lwip/liblwip.a
+CC /app/build/objs/bt/bluedroid/btc/profile/esp/blufi/blufi_prf.o
+CC /app/build/objs/bt/bluedroid/btc/profile/esp/blufi/blufi_protocol.o
+CC /app/build/objs/bt/bluedroid/btc/profile/std/gap/btc_gap_bt.o
+make[1]: Leaving directory '/app/build/objs/lwip'
+CC /app/build/objs/bt/bluedroid/btc/profile/std/gatt/btc_gatts.o
+CC /app/build/objs/bt/bluedroid/btc/profile/std/gatt/btc_gatt_util.o
+CC /app/build/objs/bt/bluedroid/btc/profile/std/gap/btc_gap_ble.o
+CC /app/build/objs/bt/bluedroid/btc/profile/std/gatt/btc_gattc.o
+CC /app/build/objs/bt/bluedroid/btc/profile/std/a2dp/bta_av_co.o
+CC /app/build/objs/bt/bluedroid/btc/profile/std/a2dp/btc_media_task.o
+CC /app/build/objs/bt/bluedroid/btc/profile/std/a2dp/btc_avk.o
+CC /app/build/objs/bt/bluedroid/btc/profile/std/avrc/btc_avrc.o
+CC /app/build/objs/bt/bluedroid/stack/btm/btm_ble_batchscan.o
+CC /app/build/objs/bt/bluedroid/stack/btm/btm_ble_cont_energy.o
+CC /app/build/objs/bt/bluedroid/stack/btm/btm_sec.o
+CC /app/build/objs/bt/bluedroid/stack/btm/btm_ble.o
+Target 'component-lwip-build' responsible for '/app/build/objs/lwip/liblwip.a'
+CC /app/build/objs/bt/bluedroid/stack/btm/btm_pm.o
+CC /app/build/objs/bt/bluedroid/stack/btm/btm_ble_adv_filter.o
+CC /app/build/objs/bt/bluedroid/stack/btm/btm_inq.o
+CC /app/build/objs/bt/bluedroid/stack/btm/btm_main.o
+CC /app/build/objs/bt/bluedroid/stack/btm/btm_dev.o
+CC /app/build/objs/bt/bluedroid/stack/btm/btm_ble_privacy.o
+CC /app/build/objs/bt/bluedroid/stack/btm/btm_ble_bgconn.o
+CC /app/build/objs/bt/bluedroid/stack/btm/btm_acl.o
+CC /app/build/objs/bt/bluedroid/stack/btm/btm_ble_gap.o
+CC /app/build/objs/bt/bluedroid/stack/btm/btm_ble_multi_adv.o
+CC /app/build/objs/bt/bluedroid/stack/btm/btm_ble_addr.o
+CC /app/build/objs/bt/bluedroid/stack/btm/btm_devctl.o
+CC /app/build/objs/bt/bluedroid/stack/btm/btm_sco.o
+CC /app/build/objs/bt/bluedroid/stack/btu/btu_hcif.o
+CC /app/build/objs/bt/bluedroid/stack/btu/btu_task.o
+CC /app/build/objs/bt/bluedroid/stack/btu/btu_init.o
+CC /app/build/objs/bt/bluedroid/stack/gap/gap_ble.o
+CC /app/build/objs/bt/bluedroid/stack/gap/gap_conn.o
+CC /app/build/objs/bt/bluedroid/stack/gap/gap_api.o
+CC /app/build/objs/bt/bluedroid/stack/gap/gap_utils.o
+CC /app/build/objs/bt/bluedroid/stack/gatt/gatt_db.o
+CC /app/build/objs/bt/bluedroid/stack/gatt/gatt_cl.o
+CC /app/build/objs/bt/bluedroid/stack/gatt/gatt_attr.o
+CC /app/build/objs/bt/bluedroid/stack/gatt/gatt_main.o
+CC /app/build/objs/bt/bluedroid/stack/gatt/gatt_sr.o
+CC /app/build/objs/bt/bluedroid/stack/gatt/att_protocol.o
+CC /app/build/objs/bt/bluedroid/stack/gatt/gatt_auth.o
+CC /app/build/objs/bt/bluedroid/stack/gatt/gatt_api.o
+CC /app/build/objs/bt/bluedroid/stack/gatt/gatt_utils.o
+CC /app/build/objs/bt/bluedroid/stack/hcic/hciblecmds.o
+CC /app/build/objs/bt/bluedroid/stack/hcic/hcicmds.o
+CC /app/build/objs/bt/bluedroid/stack/l2cap/l2c_main.o
+CC /app/build/objs/bt/bluedroid/stack/l2cap/l2c_csm.o
+CC /app/build/objs/bt/bluedroid/stack/l2cap/l2c_ucd.o
+CC /app/build/objs/bt/bluedroid/stack/l2cap/l2cap_client.o
+CC /app/build/objs/bt/bluedroid/stack/l2cap/l2c_utils.o
+CC /app/build/objs/bt/bluedroid/stack/l2cap/l2c_fcr.o
+CC /app/build/objs/bt/bluedroid/stack/l2cap/l2c_link.o
+CC /app/build/objs/bt/bluedroid/stack/l2cap/l2c_ble.o
+CC /app/build/objs/bt/bluedroid/stack/l2cap/l2c_api.o
+CC /app/build/objs/bt/bluedroid/stack/sdp/sdp_db.o
+CC /app/build/objs/bt/bluedroid/stack/sdp/sdp_discovery.o
+CC /app/build/objs/bt/bluedroid/stack/sdp/sdp_utils.o
+CC /app/build/objs/bt/bluedroid/stack/sdp/sdp_server.o
+CC /app/build/objs/bt/bluedroid/stack/sdp/sdp_main.o
+CC /app/build/objs/bt/bluedroid/stack/sdp/sdp_api.o
+CC /app/build/objs/bt/bluedroid/stack/smp/p_256_curvepara.o
+CC /app/build/objs/bt/bluedroid/stack/smp/smp_api.o
+CC /app/build/objs/bt/bluedroid/stack/smp/smp_utils.o
+CC /app/build/objs/bt/bluedroid/stack/smp/p_256_ecc_pp.o
+CC /app/build/objs/bt/bluedroid/stack/smp/smp_act.o
+CC /app/build/objs/bt/bluedroid/stack/smp/smp_keys.o
+CC /app/build/objs/bt/bluedroid/stack/smp/smp_cmac.o
+CC /app/build/objs/bt/bluedroid/stack/smp/smp_br_main.o
+CC /app/build/objs/bt/bluedroid/stack/smp/aes.o
+CC /app/build/objs/bt/bluedroid/stack/smp/smp_main.o
+CC /app/build/objs/bt/bluedroid/stack/smp/p_256_multprecision.o
+CC /app/build/objs/bt/bluedroid/stack/smp/smp_l2c.o
+CC /app/build/objs/bt/bluedroid/stack/avct/avct_lcb.o
+CC /app/build/objs/bt/bluedroid/stack/avct/avct_l2c.o
+CC /app/build/objs/bt/bluedroid/stack/avct/avct_lcb_act.o
+CC /app/build/objs/bt/bluedroid/stack/avct/avct_api.o
+CC /app/build/objs/bt/bluedroid/stack/avct/avct_ccb.o
+CC /app/build/objs/bt/bluedroid/stack/avrc/avrc_pars_ct.o
+CC /app/build/objs/bt/bluedroid/stack/avrc/avrc_opt.o
+CC /app/build/objs/bt/bluedroid/stack/avrc/avrc_bld_ct.o
+CC /app/build/objs/bt/bluedroid/stack/avrc/avrc_pars_tg.o
+CC /app/build/objs/bt/bluedroid/stack/avrc/avrc_bld_tg.o
+CC /app/build/objs/bt/bluedroid/stack/avrc/avrc_api.o
+CC /app/build/objs/bt/bluedroid/stack/avrc/avrc_utils.o
+CC /app/build/objs/bt/bluedroid/stack/avrc/avrc_sdp.o
+CC /app/build/objs/bt/bluedroid/stack/avdt/avdt_l2c.o
+CC /app/build/objs/bt/bluedroid/stack/avdt/avdt_ccb.o
+CC /app/build/objs/bt/bluedroid/stack/avdt/avdt_scb_act.o
+CC /app/build/objs/bt/bluedroid/stack/avdt/avdt_scb.o
+CC /app/build/objs/bt/bluedroid/stack/avdt/avdt_api.o
+CC /app/build/objs/bt/bluedroid/stack/avdt/avdt_msg.o
+CC /app/build/objs/bt/bluedroid/stack/avdt/avdt_ccb_act.o
+CC /app/build/objs/bt/bluedroid/stack/avdt/avdt_ad.o
+CC /app/build/objs/bt/bluedroid/stack/a2dp/a2d_sbc.o
+CC /app/build/objs/bt/bluedroid/stack/a2dp/a2d_api.o
+CC /app/build/objs/bt/bluedroid/api/esp_avrc_api.o
+CC /app/build/objs/bt/bluedroid/utils/bt_utils.o
+CC /app/build/objs/bt/bluedroid/api/esp_bt_main.o
+CC /app/build/objs/bt/bluedroid/api/esp_bt_device.o
+CC /app/build/objs/bt/bluedroid/api/esp_gap_bt_api.o
+CC /app/build/objs/bt/bluedroid/api/esp_a2dp_api.o
+CC /app/build/objs/bt/bluedroid/api/esp_gattc_api.o
+CC /app/build/objs/bt/bluedroid/api/esp_blufi_api.o
+CC /app/build/objs/bt/bluedroid/api/esp_gap_ble_api.o
+CC /app/build/objs/bt/bluedroid/api/esp_gatts_api.o
+CC /app/build/objs/bt/bluedroid/api/esp_gatt_common_api.o
+AR /app/build/objs/bt/libbt.a
+make[1]: Leaving directory '/app/build/objs/bt'
+Target 'component-bt-build' responsible for '/app/build/objs/bt/libbt.a'
+  GEN   /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/build/gen/build_info.c
+  GEN   /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/build/gen/mg_build_info.c
+CC build_info.o
+CC mg_build_info.o
+AR /app/build/objs/src/libsrc.a
+make[1]: Leaving directory '/app/build/objs/src'
+Target 'component-src-build' responsible for '/app/build/objs/src/libsrc.a'
+esptool.py v2.1
+  Generating breakdown
+  CP    /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/ca-bundle-1.17/fs/ca.pem -> build/fs
+  CP    /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/fs/index.html -> build/fs
+  CP    /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/fs/style.css -> build/fs
+  CP    /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/fs/conf9.json -> build/fs
+  CP    /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/fs/websocketclock.html -> build/fs
+  CP    /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/build/gen/conf0.json -> build/fs
+  CP    /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/build/gen/sys_config_schema.json -> build/fs
+  CP    /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/build/gen/sys_ro_vars_schema.json -> build/fs
+  MKFS  /usr/local/bin/mkspiffs8 262144 build/fs -> /app/build/objs/fw_temp/fs.img
+     Adding conf9.json: 267
+     Adding style.css: 532
+     Adding index.html: 70
+     Adding conf0.json: 2163
+     Adding websocketclock.html: 2395
+     Adding ca.pem: 14308
+     Adding sys_ro_vars_schema.json: 332
+     Adding sys_config_schema.json: 6224
+     Image stats: size=262144, space: total=233681, used=29618, free=204063
+  GEN    /app/build/objs/fw_temp/manifest.json
+  ZIP    /app/build/fw/mjs-latest-esp32-last.zip
+     Adding /app/build/objs/fw_temp/bootloader.bin
+     Adding /app/build/objs/fw_temp/fs.img
+     Adding /app/build/objs/fw_temp/mjs-latest.bin
+     Adding /app/build/objs/fw_temp/partitions_mgos.bin
+  Built mjs-latest/esp32 version 1.0 (20170930-210647/???)
+To flash all build output, run 'make flash' or:
+python /opt/Espressif/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 1500000 --before default_reset --after hard_reset write_flash -z --flash_mode qio --flash_freq 40m --flash_size detect 0x1000 /app/build/objs/bootloader/bootloader.bin 0x10000 /app/build/objs/mjs-latest.bin 0x8000 /app/build/objs/partitions_mgos.bin
+make: Leaving directory '/app'
+Success, built mjs-latest/esp32 version 1.0 (20170930-210647/???).
+Firmware saved to build/fw.zip

@@ -1,0 +1,310 @@
+name: mjs-latest
+type: app
+version: "1.0"
+arch: ""
+platform: esp32
+platforms:
+- cc3200
+- cc3220
+- esp32
+- esp8266
+author: mongoose-os
+description: An empty app that does nothing
+mongoose_os_version: "1.17"
+sources:
+- /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/ca-bundle-1.17/src
+- /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/wifi-1.17/src
+- /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/wifi-1.17/esp32/src
+- /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/http-server-1.17/src
+- /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-common-1.17/src/mg_rpc
+- /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-common-1.17/src
+- /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-service-config-1.17/src
+- /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-service-fs-1.17/src
+- /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-uart-1.17/src
+- src
+filesystem:
+- /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/ca-bundle-1.17/fs
+- fs
+binary_libs: []
+extra_files: []
+enable_javascript: false
+ffi_symbols: []
+config_schema:
+- - wifi
+  - o
+  - hide: true
+- - wifi.sta
+  - o
+  - title: WiFi Station
+- - wifi.sta.enable
+  - b
+  - title: Connect to existing WiFi
+- - wifi.sta.ssid
+  - s
+  - title: SSID
+- - wifi.sta.pass
+  - s
+  - title: Password
+    type: password
+- - wifi.sta.user
+  - s
+  - title: Username for WPA-PEAP mode
+- - wifi.sta.anon_identity
+  - s
+  - title: Anonymous identity for WPA mode
+- - wifi.sta.cert
+  - s
+  - title: Client certificate for WPA-TTLS mode
+- - wifi.sta.key
+  - s
+  - title: Client key for WPA-TTLS mode
+- - wifi.sta.ca_cert
+  - s
+  - title: CA certificate for WPA-enterprise mode
+- - wifi.sta.ip
+  - s
+  - title: Static IP Address
+- - wifi.sta.netmask
+  - s
+  - title: Static Netmask
+- - wifi.sta.gw
+  - s
+  - title: Static Default Gateway
+- - wifi.sta.nameserver
+  - s
+  - title: DNS Server
+- - wifi.sta.dhcp_hostname
+  - s
+  - title: Host name to include in DHCP requests
+- - wifi.ap
+  - o
+  - title: WiFi Access Point
+- - wifi.ap.enable
+  - b
+  - true
+  - title: Enable
+- - wifi.ap.ssid
+  - s
+  - Mongoose_??????
+  - title: SSID
+- - wifi.ap.pass
+  - s
+  - Mongoose
+  - title: Password
+    type: password
+- - wifi.ap.hidden
+  - b
+  - false
+  - title: Hide SSID
+- - wifi.ap.channel
+  - i
+  - 6
+  - title: Channel
+- - wifi.ap.max_connections
+  - i
+  - 10
+  - title: Max connections
+- - wifi.ap.ip
+  - s
+  - 192.168.4.1
+  - title: IP address
+- - wifi.ap.netmask
+  - s
+  - 255.255.255.0
+  - title: Network Mask
+- - wifi.ap.gw
+  - s
+  - 192.168.4.1
+  - title: Default Gateway
+- - wifi.ap.dhcp_start
+  - s
+  - 192.168.4.2
+  - title: DHCP Start Address
+- - wifi.ap.dhcp_end
+  - s
+  - 192.168.4.100
+  - title: DHCP End Address
+- - wifi.ap.trigger_on_gpio
+  - i
+  - -1
+  - title: Trigger AP on low GPIO
+- - wifi.ap.keep_enabled
+  - b
+  - true
+  - title: Keep AP enabled when station is on
+- - http
+  - o
+  - title: HTTP Server
+- - http.enable
+  - b
+  - true
+  - title: Enable HTTP Server
+- - http.listen_addr
+  - s
+  - "80"
+  - title: Listening port / address
+- - http.document_root
+  - s
+  - /
+  - title: Root for serving files. Setting to empty disables file serving.
+- - http.ssl_cert
+  - s
+  - title: Turn on SSL on the listener, use this cert
+- - http.ssl_key
+  - s
+  - title: SSL key to use
+- - http.ssl_ca_cert
+  - s
+  - title: Verify clients this CA bundle
+- - http.upload_acl
+  - s
+  - '*'
+  - title: Upload file ACL
+- - http.hidden_files
+  - s
+  - title: Hidden file pattern
+- - http.auth_domain
+  - s
+  - title: Enable authentication of all HTTP requests
+- - http.auth_file
+  - s
+  - title: Password file to use for auth
+- - rpc
+  - o
+  - title: RPC settings
+- - rpc.enable
+  - b
+  - true
+  - title: Enable RPC
+- - rpc.max_frame_size
+  - i
+  - 4096
+  - title: Max Frame Size
+- - rpc.max_queue_length
+  - i
+  - 25
+  - title: Max Queue Length
+- - rpc.default_out_channel_idle_close_timeout
+  - i
+  - 10
+  - title: Default idle close timeout for outbound channels
+- - rpc.acl_file
+  - s
+  - title: File with RPC ACL JSON
+- - rpc.auth_domain
+  - s
+  - title: Realm to use for digest authentication
+- - rpc.auth_file
+  - s
+  - title: File with user credentials in the htdigest format
+- - rpc.ws
+  - o
+  - title: RPC over WebSocket settings
+- - rpc.ws.enable
+  - b
+  - true
+  - title: Enable RPC over WebSocket
+- - rpc.ws.server_address
+  - s
+  - ""
+  - title: Cloud server address
+- - rpc.ws.reconnect_interval_min
+  - i
+  - 1
+  - title: Minimal reconnect interval
+- - rpc.ws.reconnect_interval_max
+  - i
+  - 60
+  - title: Maximal reconnect interval
+- - rpc.ws.ssl_server_name
+  - s
+  - title: TLS Server Name
+- - rpc.ws.ssl_ca_file
+  - s
+  - title: TLS CA file
+- - rpc.ws.ssl_client_cert_file
+  - s
+  - title: TLS client cert file
+- - rpc.uart
+  - o
+  - title: RPC-over-UART settings
+- - rpc.uart.uart_no
+  - i
+  - title: UART number (-1 to disable)
+- - rpc.uart.baud_rate
+  - i
+  - 115200
+  - title: Baud rate
+- - rpc.uart.fc_type
+  - i
+  - 2
+  - title: 'Flow control: 0 - none, 1 - CTS/RTS, 2 - XON/XOFF'
+- - rpc.uart.wait_for_start_frame
+  - b
+  - true
+  - title: Wait for an incoming frame before using the channel
+build_vars:
+  ESP_IDF_EXTRA_COMPONENTS: ""
+  ESP_IDF_SDKCONFIG_OPTS: ""
+  MGOS_HAVE_CA_BUNDLE: "1"
+  MGOS_HAVE_HTTP_SERVER: "1"
+  MGOS_HAVE_RPC_COMMON: "1"
+  MGOS_HAVE_RPC_SERVICE_CONFIG: "1"
+  MGOS_HAVE_RPC_SERVICE_FS: "1"
+  MGOS_HAVE_RPC_UART: "1"
+  MGOS_HAVE_WIFI: "1"
+  MGOS_WIFI_ENABLE_AP_STA: "1"
+cflags: []
+cxxflags: []
+cdefs:
+  MGOS_ENABLE_FILE_UPLOAD: "1"
+  MGOS_ENABLE_RPC_CHANNEL_HTTP: "1"
+  MGOS_ENABLE_RPC_CHANNEL_WS: "1"
+  MGOS_ENABLE_SYS_SERVICE: "1"
+  MGOS_ENABLE_TUNNEL: "0"
+  MGOS_ENABLE_WEB_CONFIG: "0"
+  MGOS_HAVE_CA_BUNDLE: "1"
+  MGOS_HAVE_HTTP_SERVER: "1"
+  MGOS_HAVE_RPC_COMMON: "1"
+  MGOS_HAVE_RPC_SERVICE_CONFIG: "1"
+  MGOS_HAVE_RPC_SERVICE_FS: "1"
+  MGOS_HAVE_RPC_UART: "1"
+  MGOS_HAVE_WIFI: "1"
+  MGOS_WIFI_ENABLE_AP_STA: "1"
+tags:
+- c
+libs_version: "1.17"
+modules_version: "1.17"
+conds: []
+manifest_version: 2017-05-18
+skeleton_version: ""
+deps: []
+libs_handled:
+- name: ca-bundle
+  path: /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/ca-bundle-1.17
+  deps: []
+- name: wifi
+  path: /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/wifi-1.17
+  deps: []
+- name: http-server
+  path: /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/http-server-1.17
+  deps:
+  - atca
+  - ethernet
+  - wifi
+- name: rpc-common
+  path: /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-common-1.17
+  deps:
+  - http-server
+- name: rpc-service-config
+  path: /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-service-config-1.17
+  deps:
+  - rpc-common
+- name: rpc-service-fs
+  path: /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-service-fs-1.17
+  deps:
+  - rpc-common
+- name: rpc-uart
+  path: /fwbuild-volumes/1.17/apps/mjs-latest/esp32/build_contexts/build_ctx_165162746/libs/rpc-uart-1.17
+  deps:
+  - rpc-common

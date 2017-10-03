@@ -1,0 +1,6 @@
+{
+  "arch": "esp32",
+  "platform": "esp32",
+  "app_name": "mjs-latest",
+  "build_time_ms": 27427
+}

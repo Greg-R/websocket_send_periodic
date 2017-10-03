@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Mongoose-OS ESP32 Websocket Clock</title>
+</head>
+
+<body>
+    <div>
+        <h2>Mongoose-OS Websocket Clock</h2>
+        <p id="connectstatus">WebSocket Connected</p>
+    </div>
+
+<div>
+        <p>Current Server Time in UTC</p>
+        <h2><div id="currentTime">Time Not Yet Updated</div></h2>
+    </div>
+    <script>
+        //  Open a WebSocket to the server.
+        //  Need a Regular Expression to get the URL to open the WebSocket to.
+        const serverUrlRegex = /\d+\.\d+\.\d+\.\d+/; //  Matches 192.168.1.8 etc.
+        const currentUrl = window.location.origin; //  Get the URL from the browser.
+        console.log(`The currentURL is ${currentUrl}.`);
+        const serverUrl = currentUrl.match(serverUrlRegex); //  Extract what is needed to create WebSocket.
+        console.log(`The server URL is ${serverUrl[0]}`); //  The match is in the 0th element of the array.
+        let ws = new WebSocket(`ws://${serverUrl}`);   //  Comment this for static URI.
+//        let ws = new WebSocket(`ws://192.168.1.3`);  //  Un-comment this for static URI.
+
+        // Get status indicator texts.
+        let connectstatus = document.getElementById('connectstatus');
+
+        ws.onopen = () => {
+            console.log('Web browser opened a WebSocket.');
+            //  Update the connection status in the browser.
+            connectstatus.textContent = "WebSocket Connected";
+        }
+
+        ws.onclose = () => {
+            console.log('Web browser WebSocket just closed.');
+            //  Update the connection status in the browser.
+            connectstatus.textContent = "WebSocket is disconnected";
+        }
+
+        //  Get messages from irrigation server and update status.
+        ws.onmessage = (message) => {
+            console.log(message.data);
+            let statusMessage = JSON.parse(message.data);
+            //  Check the message type and handle as required.
+            if (statusMessage.messageType === "serverTime") {
+                //  Current Server Time Updater.  Updated every 1 second by server.
+                let clock = document.getElementById('currentTime');
+                clock.textContent = statusMessage.serverTime;
+            }
+        }
+    </script>
+</body>
+</html>

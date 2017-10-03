@@ -1,0 +1,18 @@
+{
+  "device": {
+    "id": "esp32_10020C"
+  },
+  "wifi": {
+    "sta": {
+      "enable": true,
+      "ssid": "led_zeppelin",
+      "pass": "test_radios",
+      "ip": "",
+      "netmask": "",
+      "dhcp_hostname": ""
+    },
+    "ap": {
+      "enable": false
+    }
+  }
+}
